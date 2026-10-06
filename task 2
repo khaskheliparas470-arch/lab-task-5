@@ -1,0 +1,26 @@
+sentence = input("Enter sentance :")
+character = len(sentence)
+word = len (sentence.split())
+
+vowels = 0
+spaces = 0
+digits = 0
+
+for vsd in sentence:
+  
+  if vsd.lower() in "aeiou":
+         vowels +=1
+
+  elif vsd == " ":
+      spaces +=1
+
+  elif vsd.isdigit():
+      digits +=1
+
+print("Character:",character)
+print("word:",word)
+print("Vowels:",vowels)
+print("Spaces:",spaces)
+  
+  
+  
