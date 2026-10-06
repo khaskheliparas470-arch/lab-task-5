@@ -1,0 +1,7 @@
+name = input("name :")
+age = input("age :")
+marks = input("marks :")
+program = input("program :")
+
+user = (name,age,marks,program)
+print(user)
