@@ -1,0 +1,10 @@
+employees=[]
+
+for i in range (3):
+   name = input("Enter name :")
+   age = input("Enter age :")
+   salary = input("Enter salary :")
+   info = (name,age,salary)
+   employees.append(info)
+
+print(employees)
